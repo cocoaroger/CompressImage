@@ -1,0 +1,21 @@
+[INFO] Running command /Users/iSouBu/Desktop/infer-osx-v0.8.1/infer/bin/infer -- xcodebuild -target TestCompressImage -configuration -sdk iphonesimulator
+[INFO] Path to infer script /Users/iSouBu/Desktop/infer-osx-v0.8.1/infer/bin/infer (/Users/iSouBu/Desktop/infer-osx-v0.8.1/infer/lib/python/infer)
+[INFO] Infer version v0.8.1
+Copyright 2009 - present Facebook. All Rights Reserved.
+
+
+[INFO] Platform: Darwin-15.6.0-x86_64-i386-64bit
+[INFO] PATH=/Users/iSouBu/Desktop/infer-osx-v0.8.1/infer/bin:/Users/iSouBu/.opam/4.02.3/bin:/Users/iSouBu/.rvm/gems/ruby-2.2.2/bin:/Users/iSouBu/.rvm/gems/ruby-2.2.2@global/bin:/Users/iSouBu/.rvm/rubies/ruby-2.2.2/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/iSouBu/.rvm/bin
+[INFO] SHELL=/bin/bash
+[INFO] output of locale.getdefaultlocale(): ('zh_CN', 'UTF-8')
+[INFO] encoding we chose in the end: UTF-8
+[INFO] Xcode version:
+Xcode 7.3.1
+Build version 7D1014
+
+[INFO] clang version:
+Apple LLVM version 7.3.0 (clang-703.0.31)
+Target: x86_64-apple-darwin15.6.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+

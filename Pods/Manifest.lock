@@ -1,0 +1,46 @@
+PODS:
+  - DACircularProgress (2.3.1)
+  - IDMPhotoBrowser (1.8.4):
+    - DACircularProgress
+    - pop
+    - SDWebImage
+  - pop (1.0.9)
+  - ReactiveCocoa (2.5):
+    - ReactiveCocoa/UI (= 2.5)
+  - ReactiveCocoa/Core (2.5):
+    - ReactiveCocoa/no-arc
+  - ReactiveCocoa/no-arc (2.5)
+  - ReactiveCocoa/UI (2.5):
+    - ReactiveCocoa/Core
+  - SDWebImage (3.8.1):
+    - SDWebImage/Core (= 3.8.1)
+  - SDWebImage/Core (3.8.1)
+  - YYCategories (1.0.3):
+    - YYCategories/no-arc (= 1.0.3)
+  - YYCategories/no-arc (1.0.3)
+
+DEPENDENCIES:
+  - IDMPhotoBrowser
+  - ReactiveCocoa (~> 2.5)
+  - YYCategories (from `https://github.com/ibireme/YYCategories.git`)
+
+EXTERNAL SOURCES:
+  YYCategories:
+    :git: https://github.com/ibireme/YYCategories.git
+
+CHECKOUT OPTIONS:
+  YYCategories:
+    :commit: 233ec351bdd2ea70788986348767863c8af00795
+    :git: https://github.com/ibireme/YYCategories.git
+
+SPEC CHECKSUMS:
+  DACircularProgress: 4dd437c0fc3da5161cb289e07ac449493d41db71
+  IDMPhotoBrowser: b574fe3229754e701f32df271afbc4ac7e4e1997
+  pop: f667631a5108a2e60d9e8797c9b32ddaf2080bce
+  ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
+  SDWebImage: 35f9627a3e44b4f292a8a8ce6a531fa488239b91
+  YYCategories: 0fd4d9eb0994d8d0e355beb4081c8f7202a82b7b
+
+PODFILE CHECKSUM: f3a70505ac073c55eafb671ef9e2468277b3cd29
+
+COCOAPODS: 1.0.1

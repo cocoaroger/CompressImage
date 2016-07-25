@@ -1,0 +1,405 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		400A8F341D40836800C47535 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 400A8F331D40836800C47535 /* main.m */; };
+		400A8F371D40836800C47535 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 400A8F361D40836800C47535 /* AppDelegate.m */; };
+		400A8F3A1D40836800C47535 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 400A8F391D40836800C47535 /* ViewController.m */; };
+		400A8F3F1D40836800C47535 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 400A8F3E1D40836800C47535 /* Assets.xcassets */; };
+		400A8F421D40836800C47535 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 400A8F401D40836800C47535 /* LaunchScreen.storyboard */; };
+		400A8F4B1D40854C00C47535 /* OriginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 400A8F4A1D40854C00C47535 /* OriginVC.m */; };
+		400A8F4E1D40855E00C47535 /* CompressedVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 400A8F4D1D40855E00C47535 /* CompressedVC.m */; };
+		400A8F511D408BAD00C47535 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 400A8F4F1D408BAD00C47535 /* Main.storyboard */; };
+		400A8F911D41A4A100C47535 /* UIImage+Compress.m in Sources */ = {isa = PBXBuildFile; fileRef = 400A8F901D41A4A100C47535 /* UIImage+Compress.m */; };
+		4600650A2DB2DFC9A05C6F7E /* libPods-TestCompressImage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 02F4C291383ACF1A4C56B1B3 /* libPods-TestCompressImage.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		02F4C291383ACF1A4C56B1B3 /* libPods-TestCompressImage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestCompressImage.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E69524705F1BC661BCFD872 /* Pods-TestCompressImage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestCompressImage.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestCompressImage/Pods-TestCompressImage.release.xcconfig"; sourceTree = "<group>"; };
+		3F537245796E612C5CF760A8 /* Pods-TestCompressImage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestCompressImage.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestCompressImage/Pods-TestCompressImage.debug.xcconfig"; sourceTree = "<group>"; };
+		400A8F2F1D40836700C47535 /* TestCompressImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestCompressImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		400A8F331D40836800C47535 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		400A8F351D40836800C47535 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		400A8F361D40836800C47535 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		400A8F381D40836800C47535 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		400A8F391D40836800C47535 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		400A8F3E1D40836800C47535 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		400A8F411D40836800C47535 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		400A8F431D40836800C47535 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		400A8F491D40854C00C47535 /* OriginVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OriginVC.h; sourceTree = "<group>"; };
+		400A8F4A1D40854C00C47535 /* OriginVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OriginVC.m; sourceTree = "<group>"; };
+		400A8F4C1D40855E00C47535 /* CompressedVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompressedVC.h; sourceTree = "<group>"; };
+		400A8F4D1D40855E00C47535 /* CompressedVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompressedVC.m; sourceTree = "<group>"; };
+		400A8F501D408BAD00C47535 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		400A8F8F1D41A4A100C47535 /* UIImage+Compress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Compress.h"; sourceTree = "<group>"; };
+		400A8F901D41A4A100C47535 /* UIImage+Compress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Compress.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		400A8F2C1D40836700C47535 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4600650A2DB2DFC9A05C6F7E /* libPods-TestCompressImage.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		400A8F261D40836700C47535 = {
+			isa = PBXGroup;
+			children = (
+				400A8F311D40836800C47535 /* TestCompressImage */,
+				400A8F301D40836700C47535 /* Products */,
+				ECFF607DAF6CFA5084354B31 /* Pods */,
+				61ECBFF3D8BCD05CDF658937 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		400A8F301D40836700C47535 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				400A8F2F1D40836700C47535 /* TestCompressImage.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		400A8F311D40836800C47535 /* TestCompressImage */ = {
+			isa = PBXGroup;
+			children = (
+				400A8F8F1D41A4A100C47535 /* UIImage+Compress.h */,
+				400A8F901D41A4A100C47535 /* UIImage+Compress.m */,
+				400A8F351D40836800C47535 /* AppDelegate.h */,
+				400A8F361D40836800C47535 /* AppDelegate.m */,
+				400A8F381D40836800C47535 /* ViewController.h */,
+				400A8F391D40836800C47535 /* ViewController.m */,
+				400A8F491D40854C00C47535 /* OriginVC.h */,
+				400A8F4A1D40854C00C47535 /* OriginVC.m */,
+				400A8F4C1D40855E00C47535 /* CompressedVC.h */,
+				400A8F4D1D40855E00C47535 /* CompressedVC.m */,
+				400A8F3E1D40836800C47535 /* Assets.xcassets */,
+				400A8F401D40836800C47535 /* LaunchScreen.storyboard */,
+				400A8F4F1D408BAD00C47535 /* Main.storyboard */,
+				400A8F431D40836800C47535 /* Info.plist */,
+				400A8F321D40836800C47535 /* Supporting Files */,
+			);
+			path = TestCompressImage;
+			sourceTree = "<group>";
+		};
+		400A8F321D40836800C47535 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				400A8F331D40836800C47535 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		61ECBFF3D8BCD05CDF658937 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				02F4C291383ACF1A4C56B1B3 /* libPods-TestCompressImage.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ECFF607DAF6CFA5084354B31 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3F537245796E612C5CF760A8 /* Pods-TestCompressImage.debug.xcconfig */,
+				3E69524705F1BC661BCFD872 /* Pods-TestCompressImage.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		400A8F2E1D40836700C47535 /* TestCompressImage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 400A8F461D40836800C47535 /* Build configuration list for PBXNativeTarget "TestCompressImage" */;
+			buildPhases = (
+				92B010A7C4227E014AA142FB /* [CP] Check Pods Manifest.lock */,
+				400A8F2B1D40836700C47535 /* Sources */,
+				400A8F2C1D40836700C47535 /* Frameworks */,
+				400A8F2D1D40836700C47535 /* Resources */,
+				F125AA66135F718FA1DE15ED /* [CP] Embed Pods Frameworks */,
+				0DE052CE7BD9914BC7122EDB /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestCompressImage;
+			productName = TestCompressImage;
+			productReference = 400A8F2F1D40836700C47535 /* TestCompressImage.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		400A8F271D40836700C47535 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = isoubu;
+				TargetAttributes = {
+					400A8F2E1D40836700C47535 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 400A8F2A1D40836700C47535 /* Build configuration list for PBXProject "TestCompressImage" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 400A8F261D40836700C47535;
+			productRefGroup = 400A8F301D40836700C47535 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				400A8F2E1D40836700C47535 /* TestCompressImage */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		400A8F2D1D40836700C47535 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				400A8F511D408BAD00C47535 /* Main.storyboard in Resources */,
+				400A8F421D40836800C47535 /* LaunchScreen.storyboard in Resources */,
+				400A8F3F1D40836800C47535 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0DE052CE7BD9914BC7122EDB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestCompressImage/Pods-TestCompressImage-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		92B010A7C4227E014AA142FB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F125AA66135F718FA1DE15ED /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestCompressImage/Pods-TestCompressImage-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		400A8F2B1D40836700C47535 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				400A8F3A1D40836800C47535 /* ViewController.m in Sources */,
+				400A8F911D41A4A100C47535 /* UIImage+Compress.m in Sources */,
+				400A8F371D40836800C47535 /* AppDelegate.m in Sources */,
+				400A8F4B1D40854C00C47535 /* OriginVC.m in Sources */,
+				400A8F341D40836800C47535 /* main.m in Sources */,
+				400A8F4E1D40855E00C47535 /* CompressedVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		400A8F401D40836800C47535 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				400A8F411D40836800C47535 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		400A8F4F1D408BAD00C47535 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				400A8F501D408BAD00C47535 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		400A8F441D40836800C47535 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		400A8F451D40836800C47535 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		400A8F471D40836800C47535 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F537245796E612C5CF760A8 /* Pods-TestCompressImage.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TestCompressImage/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.isoubu.TestCompressImage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		400A8F481D40836800C47535 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E69524705F1BC661BCFD872 /* Pods-TestCompressImage.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TestCompressImage/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.isoubu.TestCompressImage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		400A8F2A1D40836700C47535 /* Build configuration list for PBXProject "TestCompressImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				400A8F441D40836800C47535 /* Debug */,
+				400A8F451D40836800C47535 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		400A8F461D40836800C47535 /* Build configuration list for PBXNativeTarget "TestCompressImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				400A8F471D40836800C47535 /* Debug */,
+				400A8F481D40836800C47535 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 400A8F271D40836700C47535 /* Project object */;
+}
